@@ -1,6 +1,7 @@
 # Проект CatBot
 
-CatBot- это бот для Telegram, который присылает пользователю котиков.
+CatBot- это бот для Telegram, который присылает пользователю котиков,
+находит котика на фото.
 
 ## Установка
 
@@ -15,5 +16,6 @@ PROXY_URL = "Адрес прокси"
 PROXY_USERNAME = "Логин прокси"
 PROXY_PASSWORD = "Пароль на прокси"
 USER_EMOJI = [":dog:", ":cat:", ":girl:", ":boy:", ":smiley_cat:"]
+CLARIFAI_API_KEY = "API-ключ clarifai"
 ```
 6. Запустите бота командой `python bot.py`
